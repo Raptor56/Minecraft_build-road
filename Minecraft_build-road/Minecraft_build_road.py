@@ -65,7 +65,7 @@ x, y, z = mc.player.getPos() # 現在位置の取得
 #            mc.setBlock(x + j, y + k, z + i, BlockList[k][j])
 
 for i in range(7):
-    for j range(4):
+    for j in range(4):
         mc.setBlocks(x + i,y + j,z,x + i,y + j,z + l,BlockList[j][i])
 
 mc.postToChat("Finish!")
